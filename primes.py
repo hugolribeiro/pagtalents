@@ -7,7 +7,7 @@ def infinite_prime():
     while True:
         if verify_prime(number) == True:
             yield number
-        if number >= 1000:
+        if number >= 10000:
             break
         number += 1
 
@@ -35,7 +35,7 @@ def infinite_prime2():
     while True:
         if verify_prime_noroot(number) == True:
             yield number
-        if number >= 1000:
+        if number >= 10000:
             break
         number += 1
 
